@@ -2173,8 +2173,8 @@ p {
 
 #hero {
     position: relative;
-    height: 100vh;
-    min-height: 100vh;
+    height: 100svh;
+    min-height: 100svh;
     padding: 156px 20px 90px;
     padding-top: 8em;
     display: flex;
@@ -2684,12 +2684,12 @@ p {
 /* Thank You */
 
 .thank-you-page {
-    min-height: 100vh;
+    min-height: 100svh;
     background: url("../../images/hero.png") center center / cover fixed no-repeat;
 }
 
 .thank-you {
-    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2758,7 +2758,7 @@ p {
 /* Legal */
 
 .legal-page {
-    min-height: 100vh;
+    min-height: 100svh;
     background: var(--soft);
 }
 
