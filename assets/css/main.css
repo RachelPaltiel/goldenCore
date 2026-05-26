@@ -2016,7 +2016,7 @@ body {
         content: "";
         position: fixed;
         inset: 0;
-        background: url("../../images/hero.png") center center / cover no-repeat;
+/*        background: url("../../images/hero.png") center center / cover no-repeat;*/
         z-index: -2;
     }
 
@@ -2187,7 +2187,7 @@ p {
         content: "";
         position: absolute;
         inset: 0;
-        background: url("../../images/hero.png") center center / cover no-repeat;
+/*        background: url("../../images/hero.png") center center / cover no-repeat;*/
         animation: heroZoom 18s ease-in-out infinite alternate;
         z-index: 0;
     }
@@ -3490,11 +3490,11 @@ p {
         padding-top: 152px;
     }
 
-        #hero::before {
+/*        #hero::before {
             background-position: center 86px;
             background: url(../../images/hero.png) center center / cover fixed no-repeat;
         }
-
+*/
     .hero-content h1 {
         font-size: 2.05rem;
     }
