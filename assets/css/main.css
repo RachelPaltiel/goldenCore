@@ -2187,7 +2187,7 @@ p {
         content: "";
         position: absolute;
         inset: 0;
-        background: url("../../images/cover.png") center center / cover no-repeat;
+        background: url("../../images/hero.png") center center / cover no-repeat;
         animation: heroZoom 18s ease-in-out infinite alternate;
         z-index: 0;
     }
