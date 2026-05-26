@@ -107,7 +107,7 @@ a {
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    color: #3fb1a3;
+    color: #7c8081;
     text-decoration: none;
     border-bottom: dotted 1px;
 }
@@ -2817,7 +2817,8 @@ p {
         z-index: 10001;
         align-items: center;
         justify-content: center;
-        width: 112px;
+        width: 200px;
+        min-width: 100px;
         transform: translateX(-50%);
     }
 
@@ -3111,7 +3112,7 @@ p {
 
 @media screen and (max-width: 420px) {
     .mobile-logo {
-        width: 96px;
+        width: 200px;
     }
 
     #hero {
