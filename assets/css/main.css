@@ -2016,7 +2016,7 @@ body {
         content: "";
         position: fixed;
         inset: 0;
-        background: url("../../images/cover.png") center center / cover no-repeat;
+        background: url("../../images/hero.png") center center / cover no-repeat;
         z-index: -2;
     }
 
@@ -2205,12 +2205,12 @@ p {
         z-index: 2;
     }
 
-.hero-overlay {
+/*.hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(180deg, rgba(35,32,32,.26), rgba(35,32,32,.62));
     z-index: 1;
-}
+}*/
 
 .hero-content {
     position: relative;
@@ -2287,7 +2287,7 @@ p {
         letter-spacing: 0;
         padding: .45rem .85rem;
         border-radius: 999px;
-        background: rgba(148,109,42,.10);
+/*        background: rgba(148,109,42,.10);*/
     }
 
     .section-header h2 {
@@ -2311,7 +2311,7 @@ p {
 .service-card {
     position: relative;
     overflow: hidden;
-    background: var(--paper);
+/*    background: var(--paper);*/
     padding: 2.5rem 2rem;
     border: 1px solid var(--line);
     border-radius: 8px;
@@ -3267,9 +3267,9 @@ p {
             animation: none;
         }
 
-    .hero-overlay {
+/*    .hero-overlay {
         background: linear-gradient(180deg, rgba(35,32,32,.22), rgba(35,32,32,.64));
-    }
+    }*/
 
     .hero-content {
         padding: 1rem 0;
