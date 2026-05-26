@@ -9,7 +9,7 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$banner = $('#banner');
+		$header = $('#header');
 
 	// Breakpoints.
 		breakpoints({
@@ -78,11 +78,11 @@
 	// Header.
 		if (!browser.mobile
 		&&	$header.hasClass('alt')
-		&&	$banner.length > 0) {
+		&&	$header.length > 0) {
 
 			$window.on('load', function() {
 
-				$banner.scrollex({
+				$header.scrollex({
 					bottom:		$header.outerHeight(),
 					terminate:	function() { $header.removeClass('alt'); },
 					enter:		function() { $header.addClass('alt reveal'); },
