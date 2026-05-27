@@ -93,4 +93,39 @@
 
 		}
 
+		document.addEventListener("DOMContentLoaded", function () {
+
+    const tabs = document.querySelectorAll(".system-tab");
+		const panels = document.querySelectorAll(".system-panel");
+
+    tabs.forEach(tab => {
+
+			tab.addEventListener("click", () => {
+
+				const target = tab.dataset.tab;
+
+				tabs.forEach(t => t.classList.remove("active"));
+				panels.forEach(p => p.classList.remove("active"));
+
+				tab.classList.add("active");
+				document.getElementById(target).classList.add("active");
+
+			});
+
+    });
+
+});
+
+	const floatingContact = document.querySelector(".floating-contact-div");
+
+	window.addEventListener("scroll", () => {
+
+		if (window.scrollY > 50) {
+			floatingContact.classList.add("scrolled");
+		} else {
+			floatingContact.classList.remove("scrolled");
+		}
+
+	});
+
 })(jQuery);
