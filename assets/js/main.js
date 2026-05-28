@@ -128,4 +128,30 @@
 
 	});
 
+	document.addEventListener("DOMContentLoaded", () => {
+		const steps = document.querySelectorAll(".roadmap-step");
+
+		const titleEl = document.getElementById("roadmap-title");
+		const textEl = document.getElementById("roadmap-text");
+		const imgEl = document.getElementById("roadmap-image");
+
+		if (!steps.length || !titleEl || !textEl || !imgEl) return;
+
+		steps.forEach(step => {
+			step.addEventListener("click", () => {
+
+				// remove active
+				steps.forEach(s => s.classList.remove("active"));
+
+				// add active
+				step.classList.add("active");
+
+				// update preview
+				titleEl.textContent = step.dataset.title;
+				textEl.textContent = step.dataset.text;
+				imgEl.src = step.dataset.image;
+			});
+		});
+	});
+
 })(jQuery);
