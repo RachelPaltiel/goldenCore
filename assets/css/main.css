@@ -12,7 +12,7 @@ body {
     line-height: 1;
     -webkit-text-size-adjust: none;
     font-family: 'Rubik', sans-serif !important;
-    background: url("../../images/hero.png") center top / cover no-repeat;
+    background: url("../../images/hero.png?v=2") center top / cover no-repeat;
     color: var(--dark);
 }
 
@@ -619,7 +619,7 @@ body {
         content: "";
         position: fixed;
         inset: 0;
-        background: url("../../images/hero.png") right center / cover no-repeat;
+        background: url("../../images/hero.png?v=2") right center / cover no-repeat;
         z-index: -2;
     }
 
@@ -790,7 +790,7 @@ p {
         content: "";
         position: absolute;
         inset: 0;
-        /*        background: url("../../images/hero.png") center center / cover no-repeat;*/
+        /*        background: url("../../images/hero.png?v=2") center center / cover no-repeat;*/
         animation: heroZoom 18s ease-in-out infinite alternate;
         z-index: 0;
     }
@@ -1366,7 +1366,7 @@ p {
 
 .thank-you-page {
     min-height: 100svh;
-    background: url("../../images/hero.png") right top / cover no-repeat;
+    background: url("../../images/hero.png?v=2") right top / cover no-repeat;
 }
 
 .thank-you {
@@ -2107,7 +2107,7 @@ p {
 
     /*        #hero::before {
             background-position: center 86px;
-            background: url(../../images/hero.png) center center / cover fixed no-repeat;
+            background: url(../../images/hero.png?v=2) center center / cover fixed no-repeat;
         }
 */
     .hero-content h1 {
